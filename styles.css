@@ -820,20 +820,18 @@ a.nav-begin {
   margin-top: 4px;
 }
 
-.footer-bar {
-  background: var(--bg);
-}
-
 .footer-bottom {
-  padding: 28px 24px;
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.07);
-  max-width: 1160px;
+  max-width: 480px;
   margin: 0 auto;
+  padding: 24px 0 0;
 }
 
 .logo { display: flex; flex-direction: column; line-height: 1; margin-bottom: 12px; }
@@ -903,14 +901,6 @@ a.nav-begin {
 }
 .social-links a:hover { border-color: var(--purple-lt); color: var(--text) !important; }
 
-.footer-bottom {
-  padding-top: 28px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
 .footer-bottom p { font-size: 13px; color: var(--text-dim); }
 .footer-bottom a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
 .footer-bottom a:hover { color: var(--text); }
