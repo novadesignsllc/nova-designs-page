@@ -165,7 +165,7 @@ a.nav-begin {
   pointer-events: none;
   opacity: 0;
   animation: shaderFadeHero50 5.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 0.8s;
+  animation-delay: 0.5s;
 }
 
 #hero-shader {
@@ -183,7 +183,7 @@ a.nav-begin {
 #stars-hero {
   opacity: 0;
   animation: shaderFadeHero1 5.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 0.65s;
+  animation-delay: 0.5s;
 }
 
 @keyframes shaderFadeHero75 {
@@ -983,11 +983,11 @@ a.nav-begin {
 
 .hero-inner {
   animation: heroFade 2.5s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 0.1s;
+  animation-delay: 1s;
 }
 .hero-scroll {
   animation: heroFadeScroll 2.5s cubic-bezier(0.22, 1, 0.36, 1) both;
-  animation-delay: 0.7s;
+  animation-delay: 1.6s;
 }
 
 .fade-up {
