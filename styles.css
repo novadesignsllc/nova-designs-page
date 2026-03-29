@@ -1002,7 +1002,9 @@ a.nav-begin {
   .nav-pill a { font-size: 12px; padding: 7px 14px; }
 
   /* Testimonials — 2 rows, smaller cards */
-  .testimonials { padding: 48px 0 40px; }
+  .testimonials { padding: 48px 0 24px; }
+  .pricing { padding: 40px 0 40px; }
+  .faq { padding: 40px 0; }
   .carousel-track-wrap--row2 { display: block; margin-top: 20px; }
   .carousel-track--reverse { animation: ticker-reverse 25s linear infinite; }
   .testimonial-card {
