@@ -22,7 +22,7 @@
   --radius-sm: 10px;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; background: #090A13; }
 
 body {
   background: var(--bg);
@@ -802,8 +802,6 @@ a.nav-begin {
 
 .custom-select.open .custom-select-trigger {
   border-color: rgba(124, 58, 237, 0.6);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .custom-select-trigger.has-value { color: #fff; }
@@ -824,10 +822,10 @@ a.nav-begin {
   bottom: 100%;
   top: auto;
   left: 0;
-  right: 0;
-  background: rgba(13, 13, 26, 0.98);
+  width: 50%;
+  background: rgba(13, 13, 26, 0.80);
   border: 1px solid rgba(124, 58, 237, 0.5);
-  border-radius: 12px 0 0 0;
+  border-radius: 12px;
   margin-bottom: 6px;
   overflow: hidden;
   z-index: 20;
