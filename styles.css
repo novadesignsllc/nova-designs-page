@@ -549,6 +549,13 @@ a.nav-begin {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
+@keyframes ticker-reverse {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+/* Second row hidden on desktop */
+.carousel-track-wrap--row2 { display: none; }
 
 .testimonial-card {
   background: var(--bg-card);
@@ -977,6 +984,18 @@ a.nav-begin {
   .nav { top: 12px; }
   .nav-pill { padding: 4px; gap: 2px; }
   .nav-pill a { font-size: 11px; padding: 6px 10px; }
+
+  /* Testimonials — 2 rows, smaller cards */
+  .testimonials { padding: 48px 0 40px; }
+  .carousel-track-wrap--row2 { display: block; margin-top: 12px; }
+  .carousel-track--reverse { animation: ticker-reverse 25s linear infinite; }
+  .testimonial-card {
+    width: 220px;
+    padding: 14px 16px 12px;
+  }
+  .testimonial-card > p { font-size: 11px; line-height: 1.55; margin-bottom: 10px; }
+  .testimonial-author { font-size: 11px; }
+  .stars { font-size: 12px; margin-bottom: 8px; }
 
   /* Hero */
   .hero-logo-nova { letter-spacing: 0.18em; }

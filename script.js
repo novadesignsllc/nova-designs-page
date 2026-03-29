@@ -8,6 +8,11 @@
   if (!track) return;
   const originals = Array.from(track.children);
   originals.forEach(card => track.appendChild(card.cloneNode(true)));
+
+  const track2 = document.getElementById('carouselTrack2');
+  if (!track2) return;
+  const originals2 = Array.from(track2.children);
+  originals2.forEach(card => track2.appendChild(card.cloneNode(true)));
 })();
 
 // Intersection Observer for fade-in animations
