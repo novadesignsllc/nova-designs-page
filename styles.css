@@ -165,7 +165,7 @@ a.nav-begin {
   pointer-events: none;
   opacity: 0;
   animation: shaderFadeHero50 5.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 0.3s;
+  animation-delay: 0.8s;
 }
 
 #hero-shader {
@@ -176,12 +176,13 @@ a.nav-begin {
   z-index: 2;
   pointer-events: none;
   animation: shaderFadeHero75 5.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 0.5s;
 }
 
 #stars-hero {
   opacity: 0;
   animation: shaderFadeHero1 5.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: 0.15s;
+  animation-delay: 0.65s;
 }
 
 @keyframes shaderFadeHero75 {
