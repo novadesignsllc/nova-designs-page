@@ -827,8 +827,8 @@ a.nav-begin {
   right: 0;
   background: rgba(13, 13, 26, 0.98);
   border: 1px solid rgba(124, 58, 237, 0.5);
-  border-bottom: none;
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px 0 0 0;
+  margin-bottom: 6px;
   overflow: hidden;
   z-index: 20;
   backdrop-filter: blur(20px);
